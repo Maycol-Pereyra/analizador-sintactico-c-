@@ -1,0 +1,7 @@
+src/lex.yy.c
+src/parser.tab.c
+src/parser.tab.h
+parser.output
+*.obj
+__pycache__/
+*.pyc

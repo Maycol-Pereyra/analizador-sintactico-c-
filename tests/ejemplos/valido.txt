@@ -1,0 +1,23 @@
+// Programa Mini-C valido: declaraciones, funciones y control de flujo
+int total = 0, limite = 10;
+float pi = 3.14;
+char *saludo = "hola";
+
+int suma(int a, int b) {
+    return a + b * 2;
+}
+
+void main(void) {
+    int i;
+    for (i = 0; i < limite; i = i + 1) {
+        if (i % 2 == 0 && !(i == 4)) {
+            total = suma(total, i);
+        } else {
+            total = total - 1;
+        }
+    }
+    while (total > 0) total = total - 3;
+    /* if sin else dentro de otro if: el else se une al if mas cercano */
+    if (total) if (pi > 3) total = 1; else total = 2;
+    return;
+}

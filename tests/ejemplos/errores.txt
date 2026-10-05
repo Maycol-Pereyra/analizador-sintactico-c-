@@ -1,0 +1,9 @@
+int x = (5 + 2;
+float z = 3.14 @ 2;
+int f(int a) {
+    return a +;
+}
+else x = 1;
+char *s = "sin cerrar
+int ok = 1;
+int y = 3

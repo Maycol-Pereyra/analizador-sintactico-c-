@@ -1,0 +1,11 @@
+int contador;
+float pi = 3.14;
+if (contador == 10) {
+    contador = contador + 1;
+} else {
+    contador = 0;
+}
+// comentario de linea
+/* comentario
+   de bloque */
+char *msg = "hola mundo";
